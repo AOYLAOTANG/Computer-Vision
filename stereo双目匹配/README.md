@@ -29,12 +29,15 @@ myncc.m
 ![Image](https://github.com/AOYLAOTANG/Computer-Vision/blob/main/stereo%E5%8F%8C%E7%9B%AE%E5%8C%B9%E9%85%8D/teddy2.png)
 
 刚开始得到的结果比较辣眼睛，后来发现原来是滑动区域范围不对
+
 ![Image](https://github.com/AOYLAOTANG/ImageSource/blob/main/CV/stereo/CV-stereo4.png)
 
 改进之后就效果还不错了
+
 ![Image](https://github.com/AOYLAOTANG/ImageSource/blob/main/CV/stereo/CV-stereo5.png)
 
 然后是泰迪熊，感觉效果还不错。
+
 ![Image](https://github.com/AOYLAOTANG/ImageSource/blob/main/CV/stereo/CV-stereo6.png)
 
 ## 五、总结分析
