@@ -2,24 +2,23 @@
 
 ## 一、基本原理
 Stereo双目立体匹配有很多算法， 比如SAD、BM、SGBM、GC，差别在于匹配时候的策略不同，我们这次要用到的NCC度量就是一种不错的方法。
-
-
+![Image](https://github.com/AOYLAOTANG/ImageSource/blob/main/CV/stereo/CV-stereo1.png)
 其中I为目标图像，T为模板图像，模板大小为M*N。
 
 NCC的基本思想就是，从左边图像选取一个区域块，在右边目标图像某个范围内滑动，计算相似度ncc记录到对应的滑动距离中，然后选择相似度最高的距离d作为这个区域块的视差d即两幅图像这个相同区域所处像素值的差值，计算完所有区域之后的就可以得到一个视差图，根据相机的内置参数既可以求出深度图。
 
 下面这个图很好的解释了视差和深度之间的关系。
-
-
+![Image](https://github.com/AOYLAOTANG/ImageSource/blob/main/CV/stereo/CV-stereo2.png)
 
 二、核心代码
+myncc.m
 
 三、流程图
-
+![Image](https://github.com/AOYLAOTANG/ImageSource/blob/main/CV/stereo/CV-stereo3.png)
 
 四、实验结果
 接下来我们用两组图来测试算法：
-
+![Image](https://github.com/AOYLAOTANG/Computer-Vision/blob/main/stereo%E5%8F%8C%E7%9B%AE%E5%8C%B9%E9%85%8D/im2.jpg)
 
 
 
